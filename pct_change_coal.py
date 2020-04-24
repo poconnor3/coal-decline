@@ -15,9 +15,9 @@ print("csv",csv)
 
 eia_df = pd.DataFrame()
 
-for eia_variable in csv['name']:  
+for eia_variable in csv['name']:
     api = 'https://api.eia.gov/series/'
-    key = '1ff1006b301ab895a5ddd60a473a44c2'
+    key = 'YOUR_API_KEY'
     payload = {'series_id':eia_variable, 'api_key':key }
     response = requests.get(api, payload)
 
