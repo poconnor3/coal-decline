@@ -22,15 +22,15 @@ Part 1: Importing Data via API and Calculating Percent Change
 
 4. Run the script.
 
-  1. The script will loop through each variable on the .csv and return the coal-powered and total electricity generation for each state, for each year between 2001-2019.
+    1. The script will loop through each variable on the .csv and return the coal-powered and total electricity generation for each state, for each year between 2001-2019.
 
-  2. The script then extracts the generation data from the metadata, and clips out all years other than 2001 and 2019.
+    2. The script then extracts the generation data from the metadata, and clips out all years other than 2001 and 2019.
 
-  3. Next a MultiIndex is created by splitting the variable names on dashes ('-'), so that the fuel type (either coal ("COW") or total ("ALL"))
+    3. Next a MultiIndex is created by splitting the variable names on dashes ('-'), so that the fuel type (either coal ("COW") or total ("ALL"))
 
-  4. New DataFrames are created for coal generation and total generation, then divided to find the share of coal generation for each state, in 2001 and 2019.
+    4. New DataFrames are created for coal generation and total generation, then divided to find the share of coal generation for each state, in 2001 and 2019.
 
-  5. A new DataFrame is created by calculating the percent change in the share of coal/total, from 2001-2019. This is exported to percent_change.csv.
+    5. A new DataFrame is created by calculating the percent change in the share of coal/total, from 2001-2019. This is exported to percent_change.csv.
 
 5. Confirm that a percent_change.csv file was created.
 
