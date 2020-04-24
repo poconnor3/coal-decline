@@ -57,3 +57,5 @@ sources, including renewables like wind and solar. Replacing "ALL" with "WND"
 These states do not have coal reserves or coal plants, so the EIA has no data
 on coal generation for them. Massachusetts has also ended it's coal-powered
  electricity generation as of 2018.
+
+3. Thank you Professor Wilcoxen for all your help with this project! 
