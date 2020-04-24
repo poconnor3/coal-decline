@@ -1,7 +1,7 @@
 # The Change in Coal's Share of Electricity Generation in US States, 2001-2019
 
 ## Summary
-Coal use has trended downwards lately in the US, largely attributed to a rise 
+Coal use has trended downwards lately in the US, largely attributed to a rise
 in cheap natural gas and renewables. From 2001-2019, coal's share of total US
 electricity generation has dropped by 54%. But has this decline happened evenly
  across the states? This repository contains a script to calculate the percent
@@ -9,7 +9,7 @@ electricity generation has dropped by 54%. But has this decline happened evenly
  Instructions are included to visualize this change in a map in QGIS.
 
 ## Input Data
-One script (eia.api.looptest.py) and one input csv (eia_variables.csv).
+One script (pct_change_coal.py) and one input csv (eia_variables.csv).
 
 ## Instructions
 Part 1: Importing Data via API and Calculating Percent Change
