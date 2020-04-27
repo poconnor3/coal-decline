@@ -1,7 +1,7 @@
 
 # Results
 
-1. The range of values go from a 100% decrease in coal use(Massachusetts) to a 
+1. The values range from a  100% decrease in coal  (Massachusetts) to a 
 27% increase (Alaska).
 
 2. The large overall drop seems to be motivated by some northeastern states with
